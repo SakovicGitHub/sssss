@@ -1,0 +1,478 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #004275;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+background: #004275;
+height: 87px;
+border-bottom: 3px solid black;
+}
+
+
+.left-section {
+display: flex;
+align-items: center;
+}
+
+.sakovic-logo {
+width: 125px;
+margin-left: 10px;
+border-radius: 20px;
+border: 3px solid #3BAAFF;
+}
+
+.middle-section {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.middle-text {
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+color: #fff;
+}
+
+.right-section {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.search-icon {
+height: 46px;
+}
+
+.account-icon {
+height: 46px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 23px;
+}
+
+.main-section {
+display: grid;
+justify-content: center;
+padding-top: 40px;
+padding-bottom: 150px;
+}
+
+.mechanic-picture {
+border: 3px solid #3BAAFF;
+border-radius: 20px;
+max-width: 100%;
+height: auto;
+}
+
+.main-relative {
+margin-bottom: 12px;
+position: relative;
+}
+
+.mechanic-text {
+position: absolute;
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+color: #fff;
+top: 30px;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+}
+
+.logo-relative {
+  position: relative;
+}
+
+.mechanic-logo {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.after-main {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-evenly;
+}
+
+.parts-one {
+  background-color: #002E52;
+  border-radius: 20px;
+  transition: transform 0.3s, background-color 0.3s;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+}
+
+.parts-one:hover {
+  transform: translateY(-15px);
+  background-color: #334d87;
+  cursor: pointer;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+}
+
+.parts-two {
+  background-color: #002E52;
+  border-radius: 20px;
+  transition: transform 0.3s, background-color 0.3s;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+}
+
+.parts-two:hover {
+  transform: translateY(-15px);
+  background-color: #334d87;
+  cursor: pointer;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+}
+
+.parts-three {
+  background-color: #002E52;
+  border-radius: 20px;
+  transition: transform 0.3s, background-color 0.3s;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+}
+
+.parts-three:hover {
+  transform: translateY(-15px);
+  background-color: #334d87;
+  cursor: pointer;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+  box-shadow: 1px -1px 13px 0px rgba(0,0,0,0.6);
+}
+
+
+
+.li-text {
+  font-size: 30px;
+  text-align: center;
+  padding: 35px;
+  border-bottom: 2px dotted #fff;
+  list-style: none;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+
+.about-us {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 150px; 
+}
+
+.about-us-text {
+display: inline-block;
+border: 2px solid #3BAAFF;
+padding: 20px;
+font-size: 30px;
+color: #fff;
+text-decoration: none;
+background-color: #002E52;
+border-radius: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.info-section {
+  background-image: url('../images/car.jpg');
+  padding-top: 100px;
+  padding-bottom: 150px;
+  position: relative;
+  background-size: cover;
+}
+
+.info-text {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  line-height: 3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info-logo {
+position: absolute;
+bottom: 30px;
+right: 20px;
+height: 100px;
+border-radius: 20px;
+border: 3px solid #3BAAFF;
+}
+
+.info-main {
+  color: #fff;
+}
+
+.info-text-main {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tutorials-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 300px;
+  padding-bottom: 150px;
+}
+
+
+.tutorials-text {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.tutorial-part-one {
+border: 3px solid #3BAAFF;
+border-radius: 20px;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+
+footer {
+  background-color: #004275;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid black;
+}
+
+
+.contact-us {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gmail {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.mail {
+  font-size: 20px;
+  margin-left: 12px;
+  padding: 3px;
+  color: white;
+  list-style: none;
+}
+
+.footer-middle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-text {
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+color: #fff;
+}
+
+
+.numbers-text {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 15px;
+}
+
+.number {
+ font-size: 25px;
+ color: #fff;
+ margin-left: 35px;
+ list-style: none;
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+  .middle-text {
+    font-size: 100%;
+  }
+
+  .sakovic-logo {
+    width: 80px;
+  }
+
+  .search-icon {
+    height: 30px;
+  }
+
+  .account-icon {
+    height: 30px;
+  }
+
+  .mechanic-text {
+    font-size: 140%;
+  }
+
+  .mechanic-logo {
+    height: 50px;
+  }
+
+  .after-main {
+    grid-template-columns: 300px;
+    row-gap: 30px;
+  }
+
+  .li-text {
+    font-size: 140%;
+  }
+
+  .about-us-text {
+    font-size: 120%;
+  }
+
+  .info-text {
+    font-size: 200%;
+  }
+
+  .info-logo {
+    height: 60px;
+  }
+
+  .tutorials-text {
+    font-size: 110%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+ footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+ } 
+
+.contact-us {
+  margin-top: 20%;
+}
+
+ .numbers-text {
+  margin-top: 20%;
+ }
+
+ .copyright-text {
+  margin-top: 25%;
+  margin-left: 3%;
+ }
+}
+
+@media screen and (max-width: 468px) {
+ .header {
+  border-bottom: 1px solid black;
+ }
+ .middle-text {
+  font-size: 50%;
+ }
+
+ .sakovic-logo {
+  height: 50%;
+  margin-right: 15%;
+ }
+
+ .search-icon {
+  height: 25%;
+ }
+
+ .account-icon {
+  height: 25%;
+ }
+
+.mechanic-picture {
+  margin-top: 5%;
+}
+
+ .mechanic-text {
+  font-size: 90%;
+  margin-top: 5%;
+ }
+
+ .mechanic-logo {
+  height: 35px;
+ }
+
+ .after-main {
+  grid-template-columns: 240px;
+ }
+ 
+.info-logo {
+  height: 40px;
+}
+
+.tutorials-section {
+  display: flex;
+  justify-content: center;
+}
+
+.tutorial-part-one {
+  height: 250px;
+  width: 400px;
+}
+
+.tutorials-text {
+  font-size: 85%;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+
+.contact-us {
+  margin-left: -3%;
+  margin-bottom: 3%;
+}
+
+.gmail {
+  font-size: 70%;
+  margin-left: 5%;
+
+}
+
+.copyright-text {
+  font-size: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.numbers-text {
+  margin-bottom: 3%;
+}
+
+.number {
+  font-size: 100%;
+  margin-left: 26%;
+}
+
+}
